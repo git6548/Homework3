@@ -22,7 +22,7 @@ var generatePassword = function () {
     var passwordSpecialChar = window.confirm("Do you want your password to contain special characters?")
 
     //define each of the types of password components
-    var password = "";
+    var passwordGenerated = "";
     if (passwordLowerCase===true) {
       var lowerCase = "abcdefghijklmnopqrstuvwxyz"}
       else{
@@ -53,13 +53,14 @@ var generatePassword = function () {
     var passwordGenerated = passwordGenerated + totalChar.charAt(Math.floor(Math.random() * totalChar.length));
    }
 
-    //console.log(passwordLength);
-    //console.log(passwordLowerCase);
-    //console.log(passwordUpperCase);
-    // console.log(passwordNumeric);
-    // console.log(passwordSpecialChar);
-    // console.log(totalChar);
-    // console.log(password);
+    console.log(passwordLength);
+    console.log(passwordLowerCase);
+    console.log(passwordUpperCase);
+    console.log(passwordNumeric);
+    console.log(passwordSpecialChar);
+    console.log(totalChar);
+    console.log(passwordGenerated);
+    return passwordGenerated;
   }
 };
 // Get references to the #generate element
