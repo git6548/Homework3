@@ -1,5 +1,6 @@
 # Password Generator
 These files contain Stephanie's portfolio
-![screenshot](./assets/images/screenshot.jpg "Screenshot")
+![screenshot](./password-generator.jpg "Screenshot")
 
-[Link to Portfolio](https://git6548.github.io/homework2/)
+[Link to Password Generator](https://git6548.github.io/Homework3/)
+
